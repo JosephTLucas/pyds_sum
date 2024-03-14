@@ -5,8 +5,8 @@ import torch
 from typing import List
 import argparse
 
-import warnings
-warnings.filterwarnings("ignore", message="Token indices sequence length is longer than the specified maximum sequence length for this model")
+from transformers.utils import logging
+logging.set_verbosity(40)
 
 class summarizer:
     def __init__(self):
