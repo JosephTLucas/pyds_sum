@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "pyds-sum"
-version = "0.1.3"
+version = "0.1.4"
 description = "Summarize python datascience code into natural language"
 authors = ["Joseph Lucas <joe@joetl.com>"]
 license = "MIT"
@@ -9,7 +9,7 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.10"
 torch = "^2.2.1"
-transformers = "^4.38.2"
+transformers = "^4.51.1"
 
 
 [tool.poetry.group.dev.dependencies]
